@@ -1,0 +1,86 @@
+html, body, #root, .App {
+    height: 100%;
+    width: 100%;
+  }
+
+.background-image-Login{
+    background-image: url("../../assets/Image/background.jpg");
+    min-width: 100%;
+    min-height: 100%; 
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: 100% 100%;
+    background-attachment: fixed; 
+     z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-Login{
+    background-color: white;
+    width: 50vw;
+    height: 370px;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+}
+.form-codesend{
+    background-color: white;
+    width: 50vw;
+    height: 340px;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+}
+.box-Login{
+    margin: 10px;
+}
+
+@media (max-width: 901px)
+{
+    .login_img{
+        display: none;
+    }
+} 
+@media (min-width: 900px ) and (max-width: 1200px)
+{
+
+    .form-Login{
+        width: 60vw;
+    }
+    .form-codesend{
+        width: 68vw;
+    }
+} 
+
+
+@media (max-width: 600px)
+{
+    .form-Login{
+        width: 80vw;
+    }
+    .form-codesend{
+        width: 80vw;
+    }
+} 
+
+@media (max-width: 450px)
+{
+    .form-Login{
+        width: 85vw;
+    }
+    .form-codesend{
+        width: 85vw;
+    }
+}
+.loading-login{
+    height: 30px !important;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+} 
+
+
+.login-error{
+    text-align: center;
+    margin-left: 90px;
+}

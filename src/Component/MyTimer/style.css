@@ -1,0 +1,12 @@
+.mytimer-timer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    direction:rtl;
+}
+.mytimer-timer span{
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    color:rgb(50, 47, 47)
+}
